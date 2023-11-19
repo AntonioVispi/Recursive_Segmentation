@@ -36,10 +36,20 @@ This Jupyter notebook, named 'Train_Script.ipynb', is a crucial component of the
 
 **Evaluation and Metrics:** During the training, the notebook evaluates the model's performance using specific metrics, providing insights into its effectiveness.
 
+The training process consists of several successive rounds, each defining new training and validation volumes. In each round:
 
-1. Open and run the 'Train_Script.ipynb' notebook using Jupyter.
-2. Follow the step-by-step instructions within the notebook to initiate and monitor the training process.
-3. Explore the evaluation metrics and results to assess the model's performance.
+Dataset Redefinition:
 
+Training and validation volumes are updated.
+Model Initialization:
+
+The model initializes based on the best-performing model from the previous round.
+Training and Validation:
+
+The model undergoes training, and its performance is evaluated on the validation set.
+Best Model Selection:
+
+The model with the lowest validation loss becomes the initialization for the next round.
+This iterative approach ensures continuous improvement, with the final model selected based on the lowest validation loss across all rounds.
 
 
