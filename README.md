@@ -14,3 +14,21 @@ This repository uses the following environment to run the code:
 !pip install tensorflow==2.9.3
 !pip install h5py==2.10.0
 !pip install plotly==5.3.1
+
+# Project Title
+
+Welcome to [Your Project Name]!
+
+## Getting Started
+
+To set up the entire pipeline, the first step is to download the dataset from the creators' repository in the format suitable for this project. The code responsible for this task is named 'Get_Dataset_KiTS23'.
+
+### Instructions:
+
+1. Run the 'Get_Dataset_KiTS23' script to download and prepare the dataset.
+2. Ensure that the dataset is stored in the appropriate directory as specified in the project structure.
+
+Example:
+
+```bash
+python Get_Dataset_KiTS23.py
