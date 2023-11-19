@@ -19,18 +19,11 @@ This repository uses the following environment to run the code:
 
 ## Getting Started
 
-To set up the entire pipeline, the first step is to download the dataset from the [**creators repository**](https://github.com/neheller/kits23.git) in the format suitable for this project. The code responsible for this task is named 'Get_Dataset_KiTS23'.
-
-
-To set up the entire pipeline, the first step is to download the dataset from the creators' repository in the format suitable for this project. The code responsible for this task is in the Jupyter notebook named 'Get_Dataset_KiTS23.ipynb'.
-
-### Instructions:
+To set up the entire pipeline, the first step is to download the dataset from the [**creators repository**](https://github.com/neheller/kits23.git) in the format suitable for this project. The code responsible for this task is in the Jupyter notebook named 'Get_Dataset_KiTS23.ipynb'.
 
 1. Open and run the 'Get_Dataset_KiTS23.ipynb' notebook using Jupyter.
 2. Follow the instructions within the notebook to download and prepare the dataset.
-3. Ensure that the dataset is stored in the appropriate directory as specified in the project structure.
 
-This notebook will guide you through the dataset retrieval process, making it ready for subsequent stages in the pipeline.
 
 
 
