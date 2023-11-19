@@ -24,6 +24,30 @@ To set up the entire pipeline, the first step is to download the dataset from th
 **Open and run the ```Get_Dataset_KiTS23.ipynb``` notebook using Jupyter or directly Colab so follow the simple instructions within the notebook to download and prepare the dataset.**
 
 
+## Train Script Introduction
 
+This Jupyter notebook, named 'Train_Script.ipynb', is a crucial component of our project's machine learning pipeline. Its primary purpose is to facilitate the training of our model on the prepared dataset, ensuring that it learns and generalizes well to perform the desired task.
+
+### Key Features:
+
+1. **Data Loading and Preprocessing:**
+   - The notebook begins by loading and preprocessing the dataset, preparing it for the training process.
+
+2. **Model Configuration:**
+   - It includes configurations for the model architecture, hyperparameters, and any other relevant settings.
+
+3. **Training Process:**
+   - The main section of the notebook is dedicated to the actual training process, where the model learns from the input data.
+
+4. **Evaluation and Metrics:**
+   - After training, the notebook evaluates the model's performance using specific metrics, providing insights into its effectiveness.
+
+### Instructions:
+
+1. Open and run the 'Train_Script.ipynb' notebook using Jupyter.
+2. Follow the step-by-step instructions within the notebook to initiate and monitor the training process.
+3. Explore the evaluation metrics and results to assess the model's performance.
+
+Feel free to customize parameters, experiment with different configurations, and reach out if you have any questions or require further assistance!
 
 
