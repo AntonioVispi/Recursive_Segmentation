@@ -26,28 +26,20 @@ To set up the entire pipeline, the first step is to download the dataset from th
 
 ## Train Script Introduction
 
-This Jupyter notebook, named 'Train_Script.ipynb', is a crucial component of our project's machine learning pipeline. Its primary purpose is to facilitate the training of our model on the prepared dataset, ensuring that it learns and generalizes well to perform the desired task.
+This Jupyter notebook, named 'Train_Script.ipynb', is a crucial component of the project's pipeline. Its primary purpose is to facilitate the training of the model on the prepared dataset, ensuring that it learns and generalizes well to perform the segmentation task.
 
-### Key Features:
+**Data Loading and Preprocessing:** The notebook begins by loading and preprocessing the dataset, preparing it for the training process.
 
-1. **Data Loading and Preprocessing:**
-   - The notebook begins by loading and preprocessing the dataset, preparing it for the training process.
+**Model Configuration:** It includes configurations for the model architecture, hyperparameters, and any other relevant settings.
 
-2. **Model Configuration:**
-   - It includes configurations for the model architecture, hyperparameters, and any other relevant settings.
+**Training Process:** Actual training process, where the model learns from the input data.
 
-3. **Training Process:**
-   - The main section of the notebook is dedicated to the actual training process, where the model learns from the input data.
+**Evaluation and Metrics:** During the training, the notebook evaluates the model's performance using specific metrics, providing insights into its effectiveness.
 
-4. **Evaluation and Metrics:**
-   - After training, the notebook evaluates the model's performance using specific metrics, providing insights into its effectiveness.
-
-### Instructions:
 
 1. Open and run the 'Train_Script.ipynb' notebook using Jupyter.
 2. Follow the step-by-step instructions within the notebook to initiate and monitor the training process.
 3. Explore the evaluation metrics and results to assess the model's performance.
 
-Feel free to customize parameters, experiment with different configurations, and reach out if you have any questions or require further assistance!
 
 
