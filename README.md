@@ -1,4 +1,4 @@
-https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/a7ef619d-a8cd-4462-a5db-1bc3968b0f26
+https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/9e1f7834-0b9e-48a5-8c7d-903bffecc6f2
 
 # Recursive_Segmentation
 
