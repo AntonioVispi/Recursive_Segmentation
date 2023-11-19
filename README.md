@@ -15,14 +15,11 @@ This repository uses the following environment to run the code:
 !pip install h5py==2.10.0
 !pip install plotly==5.3.1
 ```
-
-# Project Title
-
-Welcome to [Your Project Name]!
-
+https://github.com/neheller/kits23.git
+[**creators repository**](https://github.com/neheller/kits23.git))
 ## Getting Started
 
-To set up the entire pipeline, the first step is to download the dataset from the creators' repository in the format suitable for this project. The code responsible for this task is named 'Get_Dataset_KiTS23'.
+To set up the entire pipeline, the first step is to download the dataset from the creators repository in the format suitable for this project. The code responsible for this task is named 'Get_Dataset_KiTS23'.
 
 ### Instructions:
 
