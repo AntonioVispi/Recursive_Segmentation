@@ -37,6 +37,10 @@ The process of redefining training data occurs automatically at the beginning of
 
 ## Test Script
 
-In order to work, the ```Test_Script.ipynb``` needs the path to the dataset, with its manual predictions, the path to the model with which inference will be made, and the output path of the automatic predictions. The rest of the simple usage instructions are found within ```Train_Script.ipynb```.
+In order to work, the ```Test_Script.ipynb``` needs the path to the dataset, with its manual predictions, the path to the model with which inference will be made, and the output path of the automatic predictions. The rest of the simple usage instructions are found within ```Test_Script.ipynb```.
+
+## Inference Script
+
+The ```Inference_Script.ipynb```, unlike the ```Test_Script.ipynb```, does not need the manual predictions. So it only needs the model path, the data on which you want to do inference, and the output path of the predictions. The rest of the simple settings are explained in the ```Inference_Script.ipynb```.
 
 
