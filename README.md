@@ -35,4 +35,8 @@ The training process consists of several successive rounds, each defining new tr
 
 The process of redefining training data occurs automatically at the beginning of each round. The best model, because of the way the algorithm was developed, will be the one with the lowest validation loss, shown in the log title, in the folder where model checkpoints are saved during training. This iterative approach ensures continuous improvement, with the final model selected based on the lowest validation loss across all rounds.
 
+## Test Script
+
+The ```Test_Script.ipynb``` needs the path to the dataset to work, with its manual predictions, the path to the model with which inference will be made, and the output path of the automatic predictions. The rest of the simple usage instructions are found within ```Train_Script.ipynb```.
+
 
