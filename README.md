@@ -29,28 +29,10 @@ To set up the entire pipeline, the first step is to download the dataset from th
 
 **This Jupyter notebook, named ```Train_Script.ipynb```, is a crucial component of the project's pipeline. Its primary purpose is to facilitate the training of the model on the prepared dataset, ensuring that it learns and generalizes well to perform the segmentation task.**
 
-**Data Loading and Preprocessing:** The notebook begins by loading and preprocessing the dataset, preparing it for the training process.
+The notebook begins by loading and preprocessing the dataset, preparing it for the training process. It includes configurations for the model architecture, hyperparameters, and data augmentation. During the training, the notebook evaluates the model's performance, providing insights into its effectiveness.
 
-**Model Configuration:** It includes configurations for the model architecture, hyperparameters, and any other relevant settings.
+The training process consists of several successive rounds, each defining new training and validation volumes. At each round, the script will output the model that leads to the best results of that round. At this point, the user should use this model as an initialization for subsequent rounds (by simply entering its model path as written in the train script). In turn, at the end of this second training, a third training can be initialized and so on. This process can be repeated as much as you want; recommend no more than 10 iterations. The process of redefining training data occurs automatically at the beginning of each round.
 
-**Training Process:** Actual training process, where the model learns from the input data.
-
-**Evaluation and Metrics:** During the training, the notebook evaluates the model's performance using specific metrics, providing insights into its effectiveness.
-
-The training process consists of several successive rounds, each defining new training and validation volumes. In each round:
-
-Dataset Redefinition:
-
-Training and validation volumes are updated.
-Model Initialization:
-
-The model initializes based on the best-performing model from the previous round.
-Training and Validation:
-
-The model undergoes training, and its performance is evaluated on the validation set.
-Best Model Selection:
-
-The model with the lowest validation loss becomes the initialization for the next round.
-This iterative approach ensures continuous improvement, with the final model selected based on the lowest validation loss across all rounds.
+The best model, because of the way the algorithm was developed, will be the one with the lowest validation loss, shown in the log title, in the folder where model checkpoints are saved during training. This iterative approach ensures continuous improvement, with the final model selected based on the lowest validation loss across all rounds.
 
 
