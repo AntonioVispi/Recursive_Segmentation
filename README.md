@@ -27,7 +27,7 @@ To set up the entire pipeline, the first step is to download the dataset from th
 
 ## Train Script Introduction
 
-This Jupyter notebook, named 'Train_Script.ipynb', is a crucial component of the project's pipeline. Its primary purpose is to facilitate the training of the model on the prepared dataset, ensuring that it learns and generalizes well to perform the segmentation task.
+**This Jupyter notebook, named ```Train_Script.ipynb```, is a crucial component of the project's pipeline. Its primary purpose is to facilitate the training of the model on the prepared dataset, ensuring that it learns and generalizes well to perform the segmentation task.**
 
 **Data Loading and Preprocessing:** The notebook begins by loading and preprocessing the dataset, preparing it for the training process.
 
