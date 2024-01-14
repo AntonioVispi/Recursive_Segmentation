@@ -45,4 +45,6 @@ In order to work, the ```Test_Script.ipynb``` needs the path to the dataset, wit
 
 The ```Inference_Script.ipynb```, unlike the ```Test_Script.ipynb```, does not need the manual predictions. So it only needs the model path, the data on which you want to do inference, and the output path of the predictions. The rest of the simple settings are explained in the ```Inference_Script.ipynb```.
 
+## Project Descriprion (coming soon...)
+
 
