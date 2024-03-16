@@ -1,6 +1,6 @@
 If you want more details about the paper, visit my article in Springer Professional, or see the abridged version of the paper in the Paper_Presentation.pdf.
 
-[**my article in Springer Professional**](https://www.springerprofessional.de/en/recursive-learning-reinforced-by-redefining-the-train-and-valida/26827214))
+[**my article in Springer Professional**](https://www.springerprofessional.de/en/recursive-learning-reinforced-by-redefining-the-train-and-valida/26827214)
 
 https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/dc7da9fc-7316-4e21-a462-ce36a6d1f990
 # Recursive Segmentation
