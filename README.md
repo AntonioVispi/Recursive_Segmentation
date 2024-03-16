@@ -1,3 +1,7 @@
+If you want more details about the paper, visit my article in Springer Professional, or see the abridged version of the paper in the Paper_Presentation.pdf.
+
+ [**my article in Springer Professional**]([https://kits-challenge.org/kits23/#:~:text=The%202023%20Kidney%20and%20Kidney%20Tumor%20Segmentation%20challenge%20(abbreviated%20KiTS23,place%20in%202019%20and%202021.]
+
 https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/dc7da9fc-7316-4e21-a462-ce36a6d1f990
 # Recursive Segmentation
 
