@@ -51,8 +51,11 @@ This approach leverages Deep Learning, employing an Encoder-Decoder architecture
 
 To reach good accuracy, it was used a cascading training method, at the beginning of each round a complete redefinition of training and validation data takes place. This strategy allowed the model to handle extensive data, enhancing its generalization capabilities. 
 
+
 In the following is a schematization of the Algorithm underlying this work. 
 ![Algorithm](https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/b1b1caf5-5bca-4088-b945-86aa0b7724eb)
+
+
 
 In the following is a schematization of the Model underlying this work. 
 ![Model](https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/7e8ebb46-a560-4dd9-8071-48d163878c26)
