@@ -1,4 +1,4 @@
-If you want more details about the paper, visit my article in Springer Professional, or see the abridged version of the paper in the Paper_Presentation.pdf.
+If you want more details about the paper, visit [**my article in Springer Professional**](https://www.springerprofessional.de/en/recursive-learning-reinforced-by-redefining-the-train-and-valida/26827214), or see the abridged version of the paper in the Paper_Presentation.pdf.
 
 [**my article in Springer Professional**](https://www.springerprofessional.de/en/recursive-learning-reinforced-by-redefining-the-train-and-valida/26827214)
 
