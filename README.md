@@ -45,6 +45,16 @@ In order to work, the ```Test_Script.ipynb``` needs the path to the dataset, wit
 
 The ```Inference_Script.ipynb```, unlike the ```Test_Script.ipynb```, does not need the manual predictions. So it only needs the model path, the data on which you want to do inference, and the output path of the predictions. The rest of the simple settings are explained in the ```Inference_Script.ipynb```.
 
-## Project Descriprion (coming soon...)
+## Project Descriprion
+
+This approach leverages Deep Learning, employing an Encoder-Decoder architecture with an EfficientNet-B5 encoder and a Unet decoder, thoughtfully customized for optimal performance.
+
+To reach good accuracy, it was used a cascading training method, at the beginning of each round a complete redefinition of training and validation data takes place. This strategy allowed the model to handle extensive data, enhancing its generalization capabilities. 
+
+In the following is a schematization of the Algorithm underlying this work. 
+![Algorithm](https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/b1b1caf5-5bca-4088-b945-86aa0b7724eb)
+
+In the following is a schematization of the Model underlying this work. 
+![Model](https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking/assets/102518682/7e8ebb46-a560-4dd9-8071-48d163878c26)
 
 
